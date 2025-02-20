@@ -4,13 +4,30 @@ body{
     background-color:white;
     text-align: justify;
 }
-header{
-    background-color: #4CABA6;
-    color: rgb(2, 0, 5);
+h1{
     text-align: center;
+}
+header{
+    background-image: url(imagem/imagem\ header01.png);
+    background-color: rgba(192, 170, 141, 0.897);
+    background-size: 150px 100px;
+    background-repeat: no-repeat;
+    color: rgb(2, 0, 5);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid rgba(0, 0, 0, 0.356);
-    padding: 50px 25px 57px 50px;
-    margin: -8px -8px 0px -7px;
+    margin: -10px -8px 0px -8px;
+    padding: 10px 10px 10px 10px
 
+}
+nav > a{
+    text-decoration: none;
+    border-radius: solid black 100px;
+    color: black;
+    padding: 05px;
+    font-size: 15px;
+}
+
+nav >a:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
 }
