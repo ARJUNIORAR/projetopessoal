@@ -1,6 +1,6 @@
 @charset "UTF8";
 @font-face{
-    font-family:"romantic";
+    font-family:"helios";
     src: url(fontes/Helios\ Regular.ttf);
 }
 
@@ -10,10 +10,10 @@ body{
 h1{ 
     height: 20vh;
     background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 80px;
-    text-align: center;
-    font-family: "romantic";
+    background-position: right bottom;
+    background-size: 50px;
+    text-align:right;
+    font-family: "helios";
     background-image: url(imagem/um\ livro\ no\ estilo\ de\ animação\ com\ fundo\ preto.png);
 }
 header{
@@ -39,4 +39,8 @@ nav >a:hover{
     background-color: lightgray
     
     
+}
+section > div{
+    border: solid black;
+    margin-top: 10px;
 }
