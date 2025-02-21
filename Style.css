@@ -1,19 +1,25 @@
 @charset "UTF8";
+@font-face{
+    font-family:"romantic";
+    src: url(fontes/Helios\ Regular.ttf);
+}
 
 body{
-    background-color:white;
-    text-align: justify;
+    background-color:rgba(248, 232, 203, 0.671)
 }
-h1{
+h1{ 
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 80px;
     text-align: center;
+    font-family: "romantic";
+    background-image: url(imagem/um\ livro\ no\ estilo\ de\ animação\ com\ fundo\ preto.png);
 }
 header{
-    background-image: url(imagem/imagem\ header01.png);
-    background-color: rgba(192, 170, 141, 0.897);
-    background-size: 250px 100px;
-    background-repeat: no-repeat;
-    color: rgb(2, 0, 5);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: solid rgba(0, 0, 0, 0.356);
     margin: -10px -8px 0px -8px;
     padding: 10px 10px 10px 10px
@@ -22,12 +28,15 @@ header{
 nav > a{
     text-decoration: none;
     border-radius: solid black 100px;
-    color: black;
+    color: wheat;
     padding: 05px;
     font-size: 15px;
 }
 
 nav >a:hover{
-    background-color: aquamarine;
     border-radius: 10px;
+    color: brown;
+    background-color: lightgray
+    
+    
 }
